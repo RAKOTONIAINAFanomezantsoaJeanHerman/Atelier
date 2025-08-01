@@ -49,3 +49,11 @@ class Wallet:
             float: The substraction of balance and val
         """
         self.balance = self.balance - val
+
+    def convert_wallet(self,rate):
+        """
+        Multiply a value rate with balance
+        
+        """
+        return self.get_wallet * rate
+
